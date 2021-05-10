@@ -1,0 +1,102 @@
+/* 
+font-family: 'Kumbh Sans', sans-serif;
+
+Dark cyan: hsl(185, 75%, 39%)
+Very dark desaturated blue: hsl(229, 23%, 23%)
+Dark grayish blue: hsl(227, 10%, 46%)
+*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+}
+
+body {
+    background: url("../images/bg-pattern-top.svg"), 
+    url("../images/bg-pattern-bottom.svg");
+    background-repeat: no-repeat;
+    background-position: left -750px top -600px, 
+    right -750px bottom -750px;
+    background-color: #19a2ae;
+    font-family: 'Kumbh Sans', sans-serif;
+    position: relative;
+    text-align: center;
+}
+
+header {
+    border-radius: 20px;
+    margin: 150px auto 0;
+    position: relative;
+    width: 340px;
+}
+
+h1 {
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 80px 0 0 0;
+}
+
+h1 span {
+    color: grey;
+    font-weight: 400;
+    padding: 5px;
+}
+
+.pattern-bg {
+    border-radius: 20px 20px 0 0;
+    width: 100%;
+}
+
+.profile-img {
+    background-color: #fff;
+    border-radius: 50%;
+    left: 50%;
+    padding: 5px;
+    position: absolute;
+    top: 90px;
+    transform: translateX(-50%);
+}
+
+.profile-info {
+    background-color: #fff;
+    border-radius: 0 0 20px 20px;
+}
+
+.city {
+    color: grey;
+    font-size: .8rem;
+}
+
+.row {
+    padding: 10px 50px;
+}
+
+.numbers {
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.data {
+    color: grey;
+    font-size: .6rem;
+    letter-spacing: 1px;
+}
+
+
+@media screen and (min-width: 600px) {
+    body {
+        background-position: left -550px top -500px, 
+        right -550px bottom -650px;
+    }
+}
+
+@media screen and (min-width: 1000px ) {
+    body {
+        background-position: left -450px top -500px, 
+        right -450px bottom -650px;
+    }
+}
+
